@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      title: 'Weather App',
       debugShowCheckedModeBanner: false,
       home: SplashScreen(),
     );
